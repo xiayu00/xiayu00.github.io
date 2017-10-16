@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 61px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+
+.section h2 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h3 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h4 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h5 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+.section h6 {
+  padding-top: 66px;
+  margin-top: -66px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Lucy D'Agostino McGowan</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="index.html">home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    say hello
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://twitter.com/LucyStats">
+        <span class="fa fa-twitter"></span>
+         
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/LucyMcGowan">
+        <span class="fa fa-github"></span>
+         
+      </a>
+    </li>
+    <li>
+      <a href="mailto:ld.mcgowan@vanderbilt.edu">
+        <span class="fa fa-envelope"></span>
+         
+      </a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="http://livefreeordichotomize.com">blog</a>
+</li>
+<li>
+  <a href="presentations.html">presentations</a>
+</li>
+<li>
+  <a href="publications.html">publications</a>
+</li>
+<li>
+  <a href="teaching.html">teaching experience</a>
+</li>
+<li>
+  <a href="http://www.lucymcgowan.com/html-cv/live-cv.html">CV</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85450191-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<br/><br/><br/><br/>
+<div class="row">
+<div class="col-xs-12 col-sm-5 text-center">
+<p><br/> <img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/coffee.png" alt="coffee" style="width:400px;" align = "top"/></p>
+</div>
+<div class="col-xs-12 col-sm-7">
+<p><span style="font-family:myFancyFont; font-size:3em;">These days I like to discuss</span></p>
+<ul>
+<li><a href="https://www.facebook.com/groups/TNBB8Builders/">BB-8</a></li>
+<li>Vanderbilt Biostatistics <em>PhD Student</em></li>
+<li>Big Data initiatives <em>Fellow in Vanderbilt’s Inaugural Big Biomedical Data Science Program</em></li>
+<li>R-Ladies Nashville <em>Co-founder</em> <a href = "https://twitter.com/RLadiesNash"><img src="https://raw.githubusercontent.com/LucyMcGowan/GSC/gh-pages/logos/twitter_icon.png" alt="Twitter Logo" height="20" width="20" align ="top"></a></li>
+<li><a href="https://www.youtube.com/watch?v=npjOSLCR2hE">Monty Python</a></li>
+<li>Predictive models</li>
+<li>Italian</li>
+<li>Propensity scores</li>
+<li>Vanderbilt <a href="https://studentorg.vanderbilt.edu/gsc/">Graduate Student Council</a> <em>President</em></li>
+</ul>
+<p><span style="font-family:myFancyFont; font-size:3em;">over coffee…</span></p>
+</div>
+</div>
+<p><br/><br/><br/></p>
+<hr />
+<p><br/><br/></p>
+<center>
+<div class="scroll">
+<img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/DSC_0889.JPG" alt="car" style="height:225px;"/> <img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/DSC_0170edit.jpg" alt="GrandCanyon" style="height:225px;"/> <img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/DSC_2468.JPG" alt="Ireland" style="height: 225px;"/>
+</div>
+</center>
+<p><br/><br/></p>
+<hr />
+<p><br/><br/></p>
+<div id="current-projects" class="section level2">
+<h2>Current Projects</h2>
+<div id="biostatistics" class="section level3">
+<h3>Biostatistics</h3>
+<ul>
+<li><p>NIH <a href="https://commonfund.nih.gov/bd2k">BD2K</a> fellow</p></li>
+<li><p>Working with National Veterans Health Administration databases, linked to Medicare, Medicaid, and National Death Index data to examine <a href="http://jaha.ahajournals.org/content/6/4/e005379.short">diabetes medications and their association with heart failure risk</a></p></li>
+<li><p>developing methods for clarifying and contextualizing <a href="https://www.slideshare.net/LucyDAgostinoMcGowan/clarifying-and-contextualizing-sensitivity-to-unmeasured-confounders-tipping-point-analyses">sensitivity to unmeasured confounding analyses</a></p></li>
+<li><p>propensity score analysis methods</p></li>
+<li><p>developing methods for large scale inference</p></li>
+</ul>
+</div>
+<div id="r-packages" class="section level3">
+<h3>R packages</h3>
+<ul>
+<li><a href="https://github.com/tidyverse/googledrive">googledrive</a>: an R package that interfaces with Google Drive from R, allowing users to seamlessly manage files on Google Drive from the comfort of their console.</li>
+</ul>
+</div>
+<div id="shiny-apps" class="section level3">
+<h3>Shiny Apps</h3>
+<ul>
+<li><p><a href="https://jhubiostatistics.shinyapps.io/papr/">papr</a>: Tinder for pre-prints, a Shiny Application developed in collaboration with <a href="http://twitter.com/jtleek">Jeff Leek</a> and <a href="http://twitter.com/nstrayer">Nick Strayer</a> for collecting gut-reactions to pre-prints from the scientific community</p></li>
+<li><p><a href="https://lucy.shinyapps.io/BinomialCoverage/">Binomial Coverage</a>: an application to facilitate an understanding of coverage probability.</p></li>
+<li><p><a href="http://ropensci.shinyapps.io/contributr">contributr</a>: an application developed in collaboration with <a href="http://twitter.com/masalmon">Maelle</a> and <a href="http://ropensci.org">rOpenSci</a> for finding beginner GitHub issues to contribute to.</p></li>
+<li><p><a href="https://lucy.shinyapps.io/tidytext-GUI/">Tidy Text GUI</a>: a tool for analyzing text based on ‘Text Mining with R: A Tidy Approach’ by Julia Silge and David Robinson, found <a href="http://tidytextmining.com">here</a>.</p></li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
