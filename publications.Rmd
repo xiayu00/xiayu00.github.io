@@ -1,0 +1,19 @@
+---
+title: "Publications"
+---
+
+```{r, include = FALSE}
+library("googlesheets")
+library("dplyr")
+```
+
+```{r, results = "asis", echo = FALSE}
+papers <- gs_url("https://docs.google.com/spreadsheets/d/1HPQDH3tOXtZb1DV--8wR9CKAzUz5aywWc2vM3OQ5SrU/edit#gid=0", verbose = FALSE) %>%
+  gs_read(verbose = FALSE) %>%
+  arrange(desc(Year))
+
+glue::glue_data(papers, "{Authors} ({Year}). {Title}. *{Publication}, {Volume}*({Number}), {Pages}. <br><br>")
+```
+
+*For all papers:*
+ [Link to PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=D%27Agostino+McGowan+or+Lucy+Mcgowan)
