@@ -1,0 +1,30 @@
+name: "lucy-mcgowan"
+output_dir: "."
+navbar:
+  title: "Lucy D'Agostino McGowan"
+  right:
+    - text: "home"
+      href: index.html
+    - text: "say hello"
+      menu:
+        - icon: fa-twitter
+          href: https://twitter.com/LucyStats
+        - icon: fa-github
+          href: https://github.com/LucyMcGowan
+        - icon: fa-envelope
+          href: mailto:ld.mcgowan@vanderbilt.edu
+    - text: "blog"
+      href: http://livefreeordichotomize.com
+    - text: "presentations"
+      href: presentations.html
+    - text: "publications"
+      href: publications.html
+    - text: "teaching experience"
+      href: teaching.html
+    - text: "CV"
+      href: http://www.lucymcgowan.com/html-cv/live-cv.html
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+    css: css/style.css
