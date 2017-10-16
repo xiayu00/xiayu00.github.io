@@ -1,0 +1,84 @@
+---
+title: ""
+---
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85450191-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<br/><br/><br/><br/>
+<div class="row">
+<div class="col-xs-12 col-sm-5 text-center">
+<br/>
+<img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/coffee.png" alt="coffee" style="width:400px;" align = "top"/> 
+</div>
+<div class="col-xs-12 col-sm-7">
+<span style="font-family:myFancyFont; font-size:3em;">These days I like to discuss</span>
+
+* [BB-8](https://www.facebook.com/groups/TNBB8Builders/)
+* Vanderbilt Biostatistics *PhD Student*
+* Big Data initiatives *Fellow in Vanderbilt's Inaugural Big Biomedical Data Science Program*
+* R-Ladies Nashville *Co-founder* <a href = "https://twitter.com/RLadiesNash"><img src="https://raw.githubusercontent.com/LucyMcGowan/GSC/gh-pages/logos/twitter_icon.png" alt="Twitter Logo" height="20" width="20" align ="top"></a>
+* [Monty Python](https://www.youtube.com/watch?v=npjOSLCR2hE)
+* Predictive models
+* Italian
+* Propensity scores
+* Vanderbilt [Graduate Student Council](https://studentorg.vanderbilt.edu/gsc/) *President*
+
+<span style="font-family:myFancyFont; font-size:3em;">over coffee...</span>
+
+</div>
+</div>
+
+
+<br/><br/><br/>
+
+***
+
+<br/><br/>
+
+<center>
+<div class="scroll">
+<img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/DSC_0889.JPG" alt="car" style="height:225px;"/>
+<img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/DSC_0170edit.jpg" alt="GrandCanyon" style="height:225px;"/>
+<img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/DSC_2468.JPG" alt="Ireland" style="height: 225px;"/></div>
+</center>
+
+<br/><br/>
+
+***
+<br/><br/>
+
+## Current Projects
+
+### Biostatistics
+
+* NIH [BD2K](https://commonfund.nih.gov/bd2k) fellow
+
+* Working with National Veterans Health Administration databases, linked to Medicare, Medicaid, and National Death Index data to examine [diabetes medications and their association with heart failure risk](http://jaha.ahajournals.org/content/6/4/e005379.short)
+
+* developing methods for clarifying and contextualizing [sensitivity to unmeasured confounding analyses](https://www.slideshare.net/LucyDAgostinoMcGowan/clarifying-and-contextualizing-sensitivity-to-unmeasured-confounders-tipping-point-analyses)
+
+* propensity score analysis methods
+
+* developing methods for large scale inference
+
+
+### R packages
+
+* [googledrive](https://github.com/tidyverse/googledrive): an R package that interfaces with Google Drive from R, allowing users to seamlessly manage files on Google Drive from the comfort of their console. 
+
+### Shiny Apps
+
+* [papr](https://jhubiostatistics.shinyapps.io/papr/): Tinder for pre-prints, a Shiny Application developed in collaboration with [Jeff Leek](http://twitter.com/jtleek) and [Nick Strayer](http://twitter.com/nstrayer) for collecting gut-reactions to pre-prints from the scientific community 
+
+* [Binomial Coverage](https://lucy.shinyapps.io/BinomialCoverage/): an application to facilitate an understanding of coverage probability.
+
+* [contributr](http://ropensci.shinyapps.io/contributr): an application developed in collaboration with [Maelle](http://twitter.com/masalmon) and [rOpenSci](http://ropensci.org) for finding beginner GitHub issues to contribute to. 
+
+* [Tidy Text GUI](https://lucy.shinyapps.io/tidytext-GUI/):  a tool for analyzing text based on 'Text Mining with R: A Tidy Approach' by Julia Silge and David Robinson, found [here](http://tidytextmining.com).
