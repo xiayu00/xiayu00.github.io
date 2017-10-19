@@ -1,26 +1,22 @@
-name: "lucy-mcgowan"
+name: "Grace"
 output_dir: "."
 navbar:
-  title: "Lucy D'Agostino McGowan"
+  title: "Grace"
   right:
     - text: "home"
       href: index.html
     - text: "say hello"
       menu:
-        - icon: fa-twitter
-          href: https://twitter.com/LucyStats
         - icon: fa-github
-          href: https://github.com/LucyMcGowan
+          href: https://xiayu00.github.io/
         - icon: fa-envelope
-          href: mailto:ld.mcgowan@vanderbilt.edu
-    - text: "blog"
-      href: http://livefreeordichotomize.com
+          href: xiayu830621@163.com
     - text: "presentations"
       href: presentations.html
     - text: "publications"
       href: publications.html
-    - text: "teaching experience"
-      href: teaching.html
+    - text: "learning"
+      href: learning.html
     - text: "CV"
       href: http://www.lucymcgowan.com/html-cv/live-cv.html
 output:
