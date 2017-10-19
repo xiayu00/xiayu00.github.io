@@ -17,8 +17,6 @@ navbar:
       href: publications.html
     - text: "learning"
       href: learning.html
-    - text: "CV"
-      href: http://www.lucymcgowan.com/html-cv/live-cv.html
 output:
   html_document:
     theme: journal
