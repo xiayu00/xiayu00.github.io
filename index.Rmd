@@ -1,7 +1,5 @@
----
----
-title: ''
----
+----
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -16,7 +14,7 @@ title: ''
 <div class="row">
 <div class="col-xs-12 col-sm-5 text-center">
 <br/>
-<img src="https://github.com/xiayu00/xiayu00.github.io/blob/master/figs/30857109.jpeg" style="width:400px;" align = "top"/> 
+<img src="https://github.com/xiayu00/xiayu00.github.io/blob/master/figs/1.jpeg" style="width:800px;" align = "top"/> 
 </div>
 <div class="col-xs-12 col-sm-7">
 
@@ -36,9 +34,9 @@ title: ''
 
 <center>
 <div class="scroll">
-<img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/DSC_0889.JPG" alt="car" style="height:225px;"/>
-<img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/DSC_0170edit.jpg" alt="GrandCanyon" style="height:225px;"/>
-<img src="https://raw.githubusercontent.com/LucyMcGowan/lucymcgowan.github.io/master/figs/DSC_2468.JPG" alt="Ireland" style="height: 225px;"/></div>
+<img src="https://github.com/xiayu00/xiayu00.github.io/blob/master/figs/2.jpeg" alt="car" style="height:600px;"/>
+<img src="https://github.com/xiayu00/xiayu00.github.io/blob/master/figs/3.jpeg"" alt="GrandCanyon" style="height:600px;"/>
+<img src="https://github.com/xiayu00/xiayu00.github.io/blob/master/figs/4.jpeg"" alt="Ireland" style="height: 600px;"/></div>
 </center>
 
 <br/><br/>
