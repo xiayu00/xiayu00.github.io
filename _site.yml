@@ -15,7 +15,7 @@ navbar:
       href: presentations.html
     - text: "publications"
       href: publications.html
-    - text: "learning"
+    - text: "learning experience"
       href: learning.html
 output:
   html_document:
