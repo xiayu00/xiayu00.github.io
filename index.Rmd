@@ -14,7 +14,7 @@
 <div class="row">
 <div class="col-xs-12 col-sm-5 text-center">
 <br/>
-<img src="https://github.com/xiayu00/xiayu00.github.io/blob/master/figs/1.jpeg" style="width:800px;" align = "top"/> 
+<img src="figs/1.jpeg" style="width:800px;" align = "top"/> 
 </div>
 <div class="col-xs-12 col-sm-7">
 
