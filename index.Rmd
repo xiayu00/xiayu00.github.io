@@ -34,9 +34,9 @@
 
 <center>
 <div class="scroll">
-<img src="figs/2.jpeg" alt="car" style="height:600px;"/>
-<img src="figs/3.jpeg"" alt="GrandCanyon" style="height:600px;"/>
-<img src="figs/4.jpeg"" alt="Ireland" style="height: 600px;"/></div>
+<img src="figs/2.jpeg" alt="car" style="height:250px;"/>
+<img src="figs/3.jpeg"" alt="GrandCanyon" style="height:150px;"/>
+<img src="figs/4.jpeg"" alt="Ireland" style="height: 250px;"/></div>
 </center>
 
 <br/><br/>
