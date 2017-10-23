@@ -11,8 +11,8 @@ navbar:
           href: https://xiayu00.github.io/
         - icon: fa-envelope
           href: xiayu830621@163.com
-    - text: "presentations"
-      href: presentations.html
+    - text: "training"
+      href: training.html
     - text: "publications"
       href: publications.html
     - text: "learning experience"
