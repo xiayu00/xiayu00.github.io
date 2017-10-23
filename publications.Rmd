@@ -1,19 +1,10 @@
 ---
 title: "Publications"
 ---
+<br>
+</br>
+##Publications
+* Ping Wang#, Li Li#, Xiaoyun Chen, Nan Jiang, Guiyou Liu, Lawrence Chen, Jianyong Xu, Hui Song*, Zugen Chen*, Yanhe Ma, Draft genome of Alicyclobacillus hesperidum strain URH17-3-68, J.Bacteriol. 2012, 194(22): 6348.
+* Guiyou Liu*, Yongshuai Jiang, Ping Wang, Rennan Feng, Nan Jiang, Xiaoyun Chen, Hui Song, Zugen Chen*, Cell adhesion molecules contribute to Alzheimer’s disease: multiple pathway analyses of two genome-wide association studies, J. Neurochem. 2012, 120: 190–198
+* Ping Wang, Lele Hu, Guiyou Liu, Nan Jiang, Xiaoyun Chen, Jianyong Xu, Wen Zheng, Li Li, Ming Tan, Zugen Chen, Hui Song*, Yu-Dong Cai*, Kuo-Chen Chou, Prediction of antimicrobial peptides based on sequence alignment and feature selection methods, PLoS ONE, 2011, 6(4): e18476: 1-9
 
-```{r, include = FALSE}
-library("googlesheets")
-library("dplyr")
-```
-
-```{r, results = "asis", echo = FALSE}
-papers <- gs_url("https://docs.google.com/spreadsheets/d/1HPQDH3tOXtZb1DV--8wR9CKAzUz5aywWc2vM3OQ5SrU/edit#gid=0", verbose = FALSE) %>%
-  gs_read(verbose = FALSE) %>%
-  arrange(desc(Year))
-
-glue::glue_data(papers, "{Authors} ({Year}). {Title}. *{Publication}, {Volume}*({Number}), {Pages}. <br><br>")
-```
-
-*For all papers:*
- [Link to PubMed](https://www.ncbi.nlm.nih.gov/pubmed/?term=D%27Agostino+McGowan+or+Lucy+Mcgowan)
