@@ -3,9 +3,6 @@ title: "Publications"
 ---
 <br>
 </br>
-Publications
-<br>
-</br>
 <br>
 * Ping Wang, Li Li, Xiaoyun Chen, Nan Jiang, Guiyou Liu, Lawrence Chen, Jianyong Xu, Hui Song, Zugen Chen, Yanhe Ma, Draft genome of Alicyclobacillus hesperidum strain URH17-3-68, J.Bacteriol. 2012, 194(22): 6348.
 <br>
