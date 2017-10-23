@@ -3,8 +3,16 @@ title: "Publications"
 ---
 <br>
 </br>
-##Publications
-* Ping Wang#, Li Li#, Xiaoyun Chen, Nan Jiang, Guiyou Liu, Lawrence Chen, Jianyong Xu, Hui Song*, Zugen Chen*, Yanhe Ma, Draft genome of Alicyclobacillus hesperidum strain URH17-3-68, J.Bacteriol. 2012, 194(22): 6348.
-* Guiyou Liu*, Yongshuai Jiang, Ping Wang, Rennan Feng, Nan Jiang, Xiaoyun Chen, Hui Song, Zugen Chen*, Cell adhesion molecules contribute to Alzheimer’s disease: multiple pathway analyses of two genome-wide association studies, J. Neurochem. 2012, 120: 190–198
-* Ping Wang, Lele Hu, Guiyou Liu, Nan Jiang, Xiaoyun Chen, Jianyong Xu, Wen Zheng, Li Li, Ming Tan, Zugen Chen, Hui Song*, Yu-Dong Cai*, Kuo-Chen Chou, Prediction of antimicrobial peptides based on sequence alignment and feature selection methods, PLoS ONE, 2011, 6(4): e18476: 1-9
+Publications
+<br>
+</br>
+<br>
+* Ping Wang, Li Li, Xiaoyun Chen, Nan Jiang, Guiyou Liu, Lawrence Chen, Jianyong Xu, Hui Song, Zugen Chen, Yanhe Ma, Draft genome of Alicyclobacillus hesperidum strain URH17-3-68, J.Bacteriol. 2012, 194(22): 6348.
+<br>
+</br>
+* Guiyou Liu, Yongshuai Jiang, Ping Wang, Rennan Feng, Nan Jiang, Xiaoyun Chen, Hui Song, Zugen Chen, Cell adhesion molecules contribute to Alzheimer’s disease: multiple pathway analyses of two genome-wide association studies, J. Neurochem. 2012, 120: 190–198
+<br>
+</br>
+* Ping Wang, Lele Hu, Guiyou Liu, Nan Jiang, Xiaoyun Chen, Jianyong Xu, Wen Zheng, Li Li, Ming Tan, Zugen Chen, Hui Song, Yu-Dong Cai, Kuo-Chen Chou, Prediction of antimicrobial peptides based on sequence alignment and feature selection methods, PLoS ONE, 2011, 6(4): e18476: 1-9
+<br>
 
