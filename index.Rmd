@@ -19,6 +19,8 @@
 <div class="col-xs-12 col-sm-7">
 
 * Tianjin University Of Technology *Master's degree*
+<br>
+</br>
 * Tianjin Institute of Industrial Biotechnology,Chinese Academy of Sciences *Research assistant*
 
 
