@@ -10,7 +10,7 @@ navbar:
         - icon: fa-github
           href: https://xiayu00.github.io/
         - icon: fa-envelope
-          href: xiayu830621@163.com
+          href: chen_xy@tib.cas.cn
     - text: "training"
       href: training.html
     - text: "publications"
